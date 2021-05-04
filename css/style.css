@@ -25,16 +25,24 @@ body {
 }
 .banner-text{
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding-top: 180px;
 
 }
 .banner-text h1{
+    color: black;
     font-size: 130px;
+    text-shadow: 2px 2px #ffffff;
+    
+      
 }
 .banner-text p{
     font-size: 20px;
-    font-style: italic;
+    font-style:bold italic;
+    font-weight: bold;
+
+
+
 }
 .banner-text h1{
     font-size: 130px;
@@ -44,13 +52,14 @@ body {
     margin: 70px auto 0;
 }
 .banner-btn a{
+    font-weight: bold;
     width: 150px;
     text-decoration: none;
     display: inline-block;
     margin: 0 10px;
     padding: 12px 0;
-    color:rgb(0, 0, 0) ;
-    border: .5px solid rgb(0, 0, 0);
+    color:rgb(255, 255, 255) ;
+    border: .5px solid rgb(255, 255, 255);
     position: relative;
     z-index: 1;
     transition: color 0.5s;
