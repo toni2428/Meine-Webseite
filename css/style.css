@@ -3,6 +3,7 @@
     padding: 0;
 
 }
+
 body {
     background-image:url("../pics/background.jpg");
     background-size: cover;
@@ -86,7 +87,11 @@ h1{
     color: white;
 }
 
-
+.banner-text h3{
+    color: white;
+    text-align: start;  
+}
+   
 .container.gallery-container {
     background-color: #fff;
     color: #35373a;
@@ -136,12 +141,24 @@ h1{
 }
 
 
-@media(max-width: 768px) {
-    body {
-        padding: 0;
-    }
 
+@media screen and (max-width: 768px) {
+	nav .logo {
+		float: none;
+		width: auto;
+		justify-content: center;
+	}
     .container.gallery-container {
         border-radius: 0;
     }
+}
+.Reservieren{
+    background-color: transparent;
+    padding: 50px 0px;
+    border-top: 1px  rgb(0, 0, 0);
+    border-bottom: 1px  rgb(0, 0, 0);
+    margin: 50px 0px;
+    float: center;
+    width: 100%;
+    
 }
